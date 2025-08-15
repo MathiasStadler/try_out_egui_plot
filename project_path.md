@@ -83,3 +83,10 @@ cargo add egui_plot
 cargo add env_logger
 cargo add eframe
 ```
+<!-- keep the format -->
+## Build the project
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+cargo build
+```
+<!-- kep the format -->
