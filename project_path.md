@@ -41,6 +41,7 @@ touch README.md \
 rustup show
 # or better
 rustup show |sed -n '/active toolchain/,/^$/p'
+```
 <!-- keep the format -->
 ## Set/switch  rust toolchain - switch stable to nightly and back
 <!-- keep the format -->
@@ -59,24 +60,8 @@ rustc --version --verbose
 >&nbsp;[!TIP]
 > Make sure the stable toolchain is activated
 <!-- keep the format -->
-## Show which toolchain is active
-<!-- keep the format -->
-```bash <!-- markdownlint-disable-line code-block-style -->
-rustup show
-# or better
-rustup show |sed -n '/active toolchain/,/^$/p'
-```
-<!-- keep the format -->
 >[!TIP] Markdownlint - Rules inside files can be enabled, disabled
 > <!-- markdownlint-disable-next-line --> [![alt text][1]](https://github.com/DavidAnson/markdownlint)
-<!-- keep the format -->
-## Set/switch  rust toolchain - switch stable to nightly and back
-<!-- keep the format -->
-```bash <!-- markdownlint-disable-line code-block-style -->
-rustup override set nightly
-#or
-rustup override set stable
-```
 <!-- keep the format -->
 ## Cargo clean - Remove artifacts that cargo has generated in the past
 <!-- keep the format -->
@@ -86,4 +71,15 @@ rustup override set stable
 <!-- keep the format -->
 ```bash <!-- markdownlint-disable-line code-block-style -->
 cargo clean -vv --color always
+```
+<!-- keep the format -->
+## Add crates for project
+<!-- keep the format -->
+- egui [![alt text][1]](https://crates.io/crates/egui)
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+cargo add egui
+cargo add egui_plot
+cargo add env_logger
+cargo add eframe
 ```
