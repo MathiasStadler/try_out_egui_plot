@@ -1,10 +1,12 @@
-# try out egui_plot
+# Try out egui_plot [![alt text][1]](https://crates.io/crates/egui_plot)
+
+- github repo [![alt text][1]](https://github.com/emilk/egui_plot)
+
+## Hello world - simplest sample [![alt text][1]]()
 
 <!-- keep the format -->
 >[!NOTE]
 >Symbol to mark web external links [![alt text][1]](./README.md)
-<!-- keep the format -->
-## Wrrong word
 <!-- keep the format -->
 ## Useful Marker
 <!-- keep the format -->
